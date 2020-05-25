@@ -16,8 +16,7 @@ The trained model is obtained by taining the model on video clips 0-99, the mode
 
 Running Code
 -------------
-1. Download /src
-2. Run main.py
+Run test.py --['video_name'] ['clip_id'] Or run test.sh
 
 Note: Test set is included in src/dataset. For the train set, download the dataset folder through [Google Drive](https://drive.google.com/open?id=1D2bJ9HLYt08NxpOj2HgoqJ2RpJXN_DZ_). Only dataset folder is required
 
@@ -29,7 +28,7 @@ dl_dataset.py : generate dataset and extract features and labels.
 
 dl_model.py  : build the Deep Learning Model.
 
-main.py : main function to run the program
+test.py : main function to run the program
 
 model_cnnlstm.h5  : trained model for the project
 
