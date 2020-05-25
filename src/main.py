@@ -29,7 +29,7 @@ if __name__ == '__main__':
     #############################
     # configure here to change the train set and test set
     # set the train set and test set through clip_id in the dataset info file 'rolling.csv'
-    train_set = dataset.id[:1]
+    train_set = dataset.id[:100]
     test_set = dataset.id[119:129]
     ##############################
 
