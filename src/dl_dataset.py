@@ -30,8 +30,11 @@ def read_json(filename):
 def read_label(id_list):
     label_list = []
     for id in id_list:
-        json_object = read_json('dataset/' + str(id) + '.json')
-        label_list.append([float(x['label']) for x in json_object['points']])
+        try:
+            json_object = read_json('dataset/' + str(id) + '.json')
+            label_list.append([float(x['label']) for x in json_object['points']])
+        except Exception:
+            print('Warning: No such file: dataset/' + str(id) + '.json')
     return np.array(label_list)
 
 
