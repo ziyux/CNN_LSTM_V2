@@ -37,13 +37,13 @@ if __name__ == '__main__':
     x_train, y_train, x_test, y_test = dataset.train_test_split(train_set, test_set)
 
     ##############################
-    # # uncomment the section if train the model
+    # # uncomment this section if train the model
     # history = cnnlstm.model.fit(x_train, y_train, epochs=50, batch_size=1)
     # cnnlstm.save()
     ##############################
 
     ##############################
-    # uncomment the section if load the trained model
+    # uncomment this section if load the trained model
     cnnlstm.load()
     ##############################
 
