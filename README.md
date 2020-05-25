@@ -34,4 +34,4 @@ model_cnnlstm.h5  : trained model for the project
 
 rolling.csv : the dataset info file
 
-Note: Put the above files and dataset/ folder into the same folder to run
+Note: Put the above files and dataset folder into the same folder to run
