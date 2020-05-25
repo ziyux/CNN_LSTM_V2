@@ -4,6 +4,8 @@ Project Description
 -------------
 This project aims to design a deep learning model for rolling action recognition. The rolling action includes forward roll, backward roll, shoulder roll and dive roll. But side roll (pencil roll) is not included.
 
+The dataset is collected from Youtube, the detailed information is included in the file /src/rolling.csv
+
 The project uses Openpose from CMU (https://github.com/CMU-Perceptual-Computing-Lab/openpose) to implement feature extraction and obtain 25 keypoints of body as input features, which includes: 
 
 Nose, Neck, Right Shoulder, Right Elbow, Right Wrist, Left Shoulder, Left Elbow, Left wrist, Mid Hip, Right Hip, Right Knee, Right Ankle, Left Hip, Left knee, Left Ankle, Right Eye, Left Eye, Right Ear, Left Ear, Left Big Toe, Left Small Toe, Left Heel, Right Big Toe, Right Samll Toe, Right Heel, Background.  
