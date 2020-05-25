@@ -24,7 +24,7 @@ dl_model.py  : build the Deep Learning Model.
 
 main.py : main function to run the program
 
-model_cnnlstm.h5  : Trained model for the project
+model_cnnlstm.h5  : trained model for the project
 
 rolling.csv : the dataset info file
 
