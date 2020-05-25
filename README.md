@@ -10,7 +10,7 @@ Nose, Neck, Right Shoulder, Right Elbow, Right Wrist, Left Shoulder, Left Elbow,
 
 Running Code
 -------------
-1. Download the dataset folder through (https://drive.google.com/open?id=1D2bJ9HLYt08NxpOj2HgoqJ2RpJXN_DZ_). Only dataset folder is required)
+1. Download the dataset folder through [Google Drive](https://drive.google.com/open?id=1D2bJ9HLYt08NxpOj2HgoqJ2RpJXN_DZ_). Only dataset folder is required)
 2. Download src/ folder and add dataset folder into it.
 3. Run main.py
 
