@@ -16,9 +16,10 @@ The trained model is obtained by taining the model on video clips 0-99, the mode
 
 Running Code
 -------------
-1. Download the dataset folder through [Google Drive](https://drive.google.com/open?id=1D2bJ9HLYt08NxpOj2HgoqJ2RpJXN_DZ_). Only dataset folder is required
-2. Download /src and add dataset folder into it.
-3. Run main.py
+1. Download /src
+2. Run main.py
+
+Note: Test set is included in src/dataset. For the train set, download the dataset folder through [Google Drive](https://drive.google.com/open?id=1D2bJ9HLYt08NxpOj2HgoqJ2RpJXN_DZ_). Only dataset folder is required
 
 File Description
 -------------
