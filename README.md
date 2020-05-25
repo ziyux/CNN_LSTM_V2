@@ -4,7 +4,7 @@ Project Description
 -------------
 This project aims to design a deep learning model for rolling action recognition. The rolling action includes forward roll, backward roll, shoulder roll and dive roll. But side roll (pencil roll) is not included.
 
-The dataset the project uses is collected from Youtube, the detailed information is included in the file /src/rolling.csv
+The dataset the project uses is collected from Youtube, the detailed information is included in the file rolling.csv. Sample videos and test videos can be viewed through [Google Drive](https://drive.google.com/open?id=1D2bJ9HLYt08NxpOj2HgoqJ2RpJXN_DZ_).
 
 The project uses Openpose from CMU (https://github.com/CMU-Perceptual-Computing-Lab/openpose) to implement feature extraction and obtain 25 keypoints of body as input features, which includes: 
 
@@ -22,7 +22,7 @@ or
 
 ./test.sh
 
-Note: Test set is included in dataset. For the train set, download the dataset folder through [Google Drive](https://drive.google.com/open?id=1D2bJ9HLYt08NxpOj2HgoqJ2RpJXN_DZ_)
+Note: Test set is included in dataset. For the train set, download the dataset folder through [Google Drive](https://drive.google.com/open?id=1D2bJ9HLYt08NxpOj2HgoqJ2RpJXN_DZ_).
 
 File Description
 -------------
