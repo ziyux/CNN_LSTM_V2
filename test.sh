@@ -1,6 +1,6 @@
 #!/bin/bash
 #Replace the variables with your github repo url, repo name, test
-video name, json named by your UIN
+#video name, json named by your UIN
 GIT_REPO_URL="https://github.com/ziyux/CNN_LSTM_V2"
 REPO="CNN_LSTM_V2"
 VIDEO="121"
