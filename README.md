@@ -22,7 +22,7 @@ or
 
 ./test.sh
 
-Note: Test set is included in dataset. For the train set, download the dataset folder through [Google Drive](https://drive.google.com/open?id=1D2bJ9HLYt08NxpOj2HgoqJ2RpJXN_DZ_).
+Note: The test set is included in dataset. For the train set, download the dataset folder through [Google Drive](https://drive.google.com/open?id=1D2bJ9HLYt08NxpOj2HgoqJ2RpJXN_DZ_).
 
 File Description
 -------------
